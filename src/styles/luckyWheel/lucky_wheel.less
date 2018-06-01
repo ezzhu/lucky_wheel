@@ -1,0 +1,152 @@
+@import '../base.less';
+.page{
+  width: 100%;
+  background-color: #ff4d6f;
+  padding-top: 17/@rem;
+  .content{
+    width: 100%;
+    height: 496.5/@rem;
+    background: url('../../assets/images/dazhuanpan_bg.png') 0 0 no-repeat;
+    background-size: 375/@rem 496.5/@rem;
+    .content-header{
+      width: 100%;
+      padding-top: 93/@rem;
+      padding-left: 80/@rem;
+      box-sizing: border-box;
+      .top{
+        font-size: 14/@rem;
+        line-height: 21/@rem;
+        color: #fff;
+      }
+      .bottom{
+        display: flex;
+        flex-direction: row;
+        button{
+          line-height: 50/@rem;
+          text-align: center;
+          font-size: 14/@rem;
+          color: #fb7b1a;
+        }
+        button:nth-child(1){
+          width: 151/@rem;
+          margin-right: 9/@rem;
+          background: url("../../assets/images/draws_number.png") 0 0 no-repeat;
+          background-size: 151/@rem 50/@rem;
+        }
+        button:nth-child(2){
+          width: 105/@rem;
+          background: url("../../assets/images/win_prize.png") 0 0 no-repeat;
+          background-size: 105/@rem 50/@rem;
+        }
+      }
+    }
+    .content-body{
+      box-sizing: border-box;
+      width: 100%;
+      padding: 21/@rem 46/@rem 0 46/@rem;
+      ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .lottery-unit-0{
+          .img{
+            background-position: 0 0;
+          }
+        }
+        .lottery-unit-1{
+          .img{
+            background-position: -91/@rem 0;
+          }
+        }
+        .lottery-unit-2{
+          .img{
+            background-position: -182/@rem 0;
+          }
+        }
+        .lottery-unit-3{
+          .img{
+            background-position: -182/@rem -91/@rem;
+          }
+        }
+        .lottery-unit-4{
+          .img{
+            background-position: -182/@rem -182/@rem;
+          }
+        }
+        .lottery-unit-5{
+          .img{
+            background-position: -91/@rem -182/@rem;
+          }
+        }
+        .lottery-unit-6{
+          .img{
+            background-position: 0 -182/@rem;
+          }
+        }
+        .lottery-unit-7{
+          .img{
+            background-position: 0 -91/@rem;
+          }
+        }
+        li{
+          width: 91/@rem;
+          height: 91/@rem;
+          margin-right: 5/@rem;
+          margin-bottom: 5/@rem;
+          box-sizing: border-box;
+          background: url("../../assets/images/lottery_btn.png") no-repeat;
+          background-position: 0 0;
+          background-size: 182/@rem 91/@rem;
+          div.img{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            background: url("../../assets/images/lottery_prize.png") no-repeat;
+            background-size: 273/@rem 273/@rem;
+          }
+          .draw-btn{
+            width: 100%;
+            height: 100%;
+            background: url("../../assets/images/lottery_prize.png") -91/@rem -91/@rem no-repeat;
+            background-size: 273/@rem 273/@rem;
+          }
+        }
+        li:nth-child(3n+0){
+          margin-right: 0;
+        }
+        li.active{
+          background-position: -91/@rem 0;
+        }
+      }
+    }
+  }
+  .footer{
+    width: 100%;
+    padding-top: 25/@rem;
+    padding-bottom: 30/@rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer-title{
+      color: #fff;
+      font-size: 16/@rem;
+      width: 204/@rem;
+      background: url("../../assets/images/activity_details.png") 0 0 no-repeat;
+      background-size: 204/@rem 19/@rem;
+      line-height: 19/@rem;
+      text-align: center;
+      margin-bottom: 20/@rem;
+    }
+    .footer-detail{
+      width: 307/@rem;
+      li{
+        p{
+          text-indent: 2em;
+          color: #fff;
+          font-size: 14/@rem;
+        }
+      }
+    }
+  }
+}
