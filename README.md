@@ -1,6 +1,8 @@
 # lucky_wheel
 
 > 抽奖
+中奖位置需要请求后台,这里只是自己用了随机数
+
 
 ## Build Setup
 
